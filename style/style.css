@@ -1,0 +1,137 @@
+* {
+  margin: 0px;
+}
+body {
+  text-align: center;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  width: 100%;
+}
+#pagelogo {
+  font-family: "roboto";
+  font-size: 60px;
+  color: rgb(255, 170, 0);
+}
+header ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+header li {
+  color: rgb(255, 170, 0);
+  padding: 30px;
+  font-weight: 600;
+  font-size: 30px;
+}
+.hi {
+  background-image: url("images/ans.jpg");
+  height: 600px;
+  background-position: center;
+  background-size: cover;
+}
+.content {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 600px;
+  width: 50%;
+  font-size: 30px;
+  margin: 0 auto 0 auto;
+  color: rgba(197, 107, 17, 1);
+  padding: 36px;
+  position: relative;
+  top: 150px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.content a {
+  display: inline-block;
+  color: aliceblue;
+  padding: 10px;
+  margin-top: 40px;
+  background-color: rgb(150, 105, 90);
+  border-radius: 10px;
+  text-decoration: none;
+  box-shadow: 2px 2px 5px black;
+  font-size: 20px;
+}
+.hi2
+{
+  background:linear-gradient(0deg,rgb(200,190,216),rgb(240,190,120));
+  height: 380px;
+}
+.hi2 h1{
+  color: black;
+  font-size: 30px;
+  padding-top: 20px;
+  margin-bottom: 40px;
+}
+.images
+{
+  list-style: none;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  width: 90%;
+
+}
+.destination{
+  margin:0 20px;
+  font-size: 20px;
+  padding-bottom: 5px;
+  background-color: antiquewhite;
+  border-radius: 12px;
+  font-weight: bold;
+}
+.destination img
+{
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(94, 115, 102, 1);
+}
+footer ul{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer
+{
+  background:linear-gradient(0deg,rgb(200,190,216),rgb(0,0,0));
+  width: 100%;
+  height: 120px;
+}
+footer img{
+  width: 80px;
+}
+footer li{
+
+  margin: 20px 20px;
+}
+.img1:hover
+{
+  box-shadow: 20px 20px 20px rgba(0, 2, 1, 0.5);
+  cursor: pointer;
+  border: 2px solid black;
+}
+.img2:hover
+{
+  box-shadow: 20px 20px 20px rgba(0, 2, 1, 0.5);
+  cursor: pointer;
+  border: 2px solid black;
+}
+.img3:hover
+{
+  box-shadow: 20px 20px 20px rgba(0, 2, 1, 0.5);
+  cursor: pointer;
+  border: 2px solid black;
+}
+footer img:hover{
+  border-radius: 20px;
+  box-shadow: 20px 20px 20px rgba(0, 2, 1, 0.5);
+
+}
